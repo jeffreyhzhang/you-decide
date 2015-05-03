@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TwitterAnalysis.TrendingVC.getGraphDates (TwitterAnalysis.TrendingVC)() -&gt; Swift.Array&lt;Swift.String&gt;:Trending.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dataArray[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TwitterAnalysis.TwitterVC.tableView (TwitterAnalysis.TwitterVC)(ObjectiveC.UITableView, cellForRowAtIndexPath : ObjectiveC.NSIndexPath) -&gt; ObjectiveC.UITableViewCell:TwitterVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tweet.createdAt">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TwitterAnalysis.SearchAccountVC.(searchAcct (TwitterAnalysis.SearchAccountVC) -&gt; (Swift.String) -&gt; ()).(closure #1):SearchAccountVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tweetAcct!.twitteracct">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TwitterAnalysis.GraphView.drawRect (TwitterAnalysis.GraphView)(C.CGRect) -&gt; ():GraphView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "graphPoints">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
