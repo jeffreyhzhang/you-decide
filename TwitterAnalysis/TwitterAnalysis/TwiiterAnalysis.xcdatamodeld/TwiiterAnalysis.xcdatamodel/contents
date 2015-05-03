@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Star" representedClassName="TwitterAnalysis.Star" syncable="YES">
+        <attribute name="followersCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="photoUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitteracct" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tweets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Tweet" inverseName="star" inverseEntity="Tweet" syncable="YES"/>
+    </entity>
+    <entity name="Tweet" representedClassName="TwitterAnalysis.Tweet" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id_str" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="likes" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="retweets" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="star" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Star" inverseName="tweets" inverseEntity="Star" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Star" positionX="-63" positionY="18" width="128" height="105"/>
+        <element name="Tweet" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>
